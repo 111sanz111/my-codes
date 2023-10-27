@@ -1,0 +1,89 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #100e19;
+}
+
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+img{
+  width: 200px;
+  height: 300px;
+}
+
+form{
+  margin-top: 10px;
+  display: flex;
+}
+
+main{
+  flex: 1 1 auto;
+}
+
+.form{
+  float: right;
+  position: absolute;
+  margin-left: 200px;
+}
+.container{
+  margin: auto;
+  overflow: auto;
+}
+
+.logo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  height: 40px;
+  padding-top: 15px;
+  color: white;
+  font-size: 35px;
+}
+
+.logo-img{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 3%;
+  top: -5px;
+  color: white;
+}
+
+.movie{
+  margin-top: 15px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+  display: table;
+  border: 1px solid black;
+  height: 300px;
+  width: 200px;
+  float: left;
+  cursor: pointer;
+}
+
+.movie-title{
+  text-align: center;
+  padding-top: 10px;
+  height: 30px;
+  width: 200px;
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  height: 20px;
+  width: 1519px;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+.hidden{
+  display: none;
+}
